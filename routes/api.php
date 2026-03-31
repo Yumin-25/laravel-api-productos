@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 // Cualquier persona puede acceder a estos endpoints
 // Analogía: son las puertas externas del edificio, abiertas para todos
 // ====================================================================
-
+//agregar midelware
 // Registro de nuevo usuario
 // Recibe: name, email, password, password_confirmation
 Route::post('/register', [AuthController::class, 'register']);

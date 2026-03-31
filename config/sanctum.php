@@ -53,6 +53,7 @@ return [
     //   60    = 1 hora   (sesiones cortas, ej. banca en línea)
     //   480   = 8 horas  (jornada laboral típica)  ← usamos este
     //   10080 = 7 días   (apps móviles con 'recordarme')
+    //agregar expiracion
     'expiration' => 480,
 
     /*

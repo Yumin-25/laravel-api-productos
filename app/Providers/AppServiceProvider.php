@@ -9,8 +9,8 @@ use Illuminate\Http\Request;
  
 class AppServiceProvider extends ServiceProvider
 {
-    // ★ NUEVO: El método boot() se ejecuta al iniciar la aplicación.
-    // Es el lugar ideal para registrar los limitadores de peticiones.
+    // ★ NUEVO: El método boot() se ejecuta al iniciar la aplicación
+    // Es el lugar ideal para registrar los limitadores de peticiones
     public function boot(): void
     {
         // ★ NUEVO: RateLimiter::for() registra un limitador con nombre 'login'.
